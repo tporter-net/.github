@@ -263,20 +263,20 @@ Isolated technical explorations, benchmarking suites, local LLM evaluation runs 
 
 ```text
  ┌─────────────────┬─────────────────┬─────────────────┬─────────────────┐
- │   Languages     │  Cloud & Hosts  │   Containers    │   Agent & AI    │
+ │   Agent & AI    │  Edge & Compute │   Networking    │  Security & SOC │
  ├─────────────────┼─────────────────┼─────────────────┼─────────────────┤
- │  Python 3       │  Proxmox VE     │  Docker         │  Hermes Runtime │
- │  PowerShell     │  Azure          │  LXC Containers │  Hindsight Mem  │
- │  TypeScript     │  Linux (Debian) │  Docker Compose │  MCP Protocols  │
- │  Bash / Shell   │  Windows Server │  Containerd     │  Ollama / Cloud │
+ │  Hermes Runtime │  Proxmox VE     │  OPNsense       │  Security Onion │
+ │  Hindsight Mem  │  Raspberry Pi 5 │  UniFi UDM      │  Step CA (ACME) │
+ │  MCP & FastMCP  │  Hailo-10H NPU  │  Caddy HTTPS    │  Zeek & Suricata│
+ │  Copilot / SDKs │  Pi Pico W / IoT│  Tailscale Mesh │  CODEOWNERS/RBAC│
  └─────────────────┴─────────────────┴─────────────────┴─────────────────┘
  ┌─────────────────┬─────────────────┬─────────────────┬─────────────────┐
- │   Networking    │   DevOps & CI   │   Data & Web    │   Security      │
+ │   Languages     │   Cloud & IaC   │   Containers    │   Data & APIs   │
  ├─────────────────┼─────────────────┼─────────────────┼─────────────────┤
- │  Caddy Web Srv  │  GitHub Actions │  FastAPI        │  Step CA (ACME) │
- │  Cloudflare     │  GitHub REST API│  Express.js     │  RBAC Policies  │
- │  Tailscale / VPN│  Git Workflow   │  Vector DBs     │  CODEOWNERS     │
- │  Local DNS      │  Task Runners   │  JSON-RPC       │  GPG & Tokens   │
+ │  Python 3       │  Azure Cloud    │  LXC Containers │  FastAPI        │
+ │  TypeScript / JS│  Azure Bicep/azd│  Docker Compose │  Express.js     │
+ │  PowerShell     │  GitHub Actions │  Docker Engine  │  Vector DBs / ES│
+ │  Bash / Shell   │  OIDC & PAC CLI │  Containerd     │  REST & JSON-RPC│
  └─────────────────┴─────────────────┴─────────────────┴─────────────────┘
 ```
 
